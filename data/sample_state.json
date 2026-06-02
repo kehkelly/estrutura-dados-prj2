@@ -1,0 +1,72 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Ana Souza",
+      "telefone": "11999990001",
+      "prioridade": false,
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Lima",
+      "telefone": "11999990002",
+      "prioridade": true,
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "nome": "Carla Dias",
+      "telefone": "11999990003",
+      "prioridade": false,
+      "ativo": true
+    }
+  ],
+  "atendentes": [
+    {
+      "id": 1,
+      "nome": "Ruben",
+      "cliente_atual_id": null,
+      "inicio_atendimento": null
+    },
+    {
+      "id": 2,
+      "nome": "Marina",
+      "cliente_atual_id": null,
+      "inicio_atendimento": null
+    }
+  ],
+  "fila_comum": [
+    {
+      "cliente_id": 3,
+      "aberto_em": "2026-06-02T09:00:00",
+      "prioridade": false
+    }
+  ],
+  "fila_prioridade": [
+    {
+      "cliente_id": 2,
+      "aberto_em": "2026-06-02T08:40:00",
+      "prioridade": true
+    }
+  ],
+  "historico": [
+    {
+      "cliente_id": 1,
+      "atendente_id": 1,
+      "data": "2026-06-02",
+      "duracao_minutos": 18,
+      "finalizado_em": "2026-06-02T10:20:00"
+    }
+  ],
+  "desfazer": [
+    {
+      "cliente_id": 1,
+      "atendente_id": 1,
+      "data": "2026-06-02",
+      "duracao_minutos": 18,
+      "finalizado_em": "2026-06-02T10:20:00"
+    }
+  ]
+}
+
