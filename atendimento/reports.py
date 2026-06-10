@@ -62,12 +62,12 @@ def exportar_csv(
         writer = csv.writer(arquivo)
         writer.writerow(
             [
-                "cliente_id",
-                "cliente_nome",
-                "atendente_id",
-                "data",
-                "duracao_minutos",
-                "finalizado_em",
+                "cliente_id ",
+                "cliente_nome ",
+                "atendente_id ",
+                "data ",
+                "duracao_minutos ",
+                "finalizado_em ",
             ]
         )
         for item in historico:
