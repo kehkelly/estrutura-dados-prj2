@@ -4,7 +4,7 @@ from pathlib import Path
 
 from atendimento.reports import exportar_csv, tempo_medio, top_clientes_mais_atendidos
 from atendimento.service import AtendimentoService
-from atendimento.storage import JsonStorage
+from atendimento.storage import JsonStorage 
 
 
 class AtendimentoServiceTest(unittest.TestCase):
