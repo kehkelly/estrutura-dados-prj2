@@ -113,7 +113,7 @@ class AtendimentoService:
         if cliente is None or not cliente.ativo:
             raise ValueError("Cliente nao encontrado ou inativo.")
         if self.cliente_em_aberto(cliente_id):
-            raise ValueError("Cliente ja possui atendimento em aberto.")
+            raise ValueError("Cliente possui atendimento em aberto.")
         ticket = Ticket(cliente_id, agora_iso(), cliente.prioridade)
         if cliente.prioridade:
             self.fila_prioridade.enqueue(ticket)
