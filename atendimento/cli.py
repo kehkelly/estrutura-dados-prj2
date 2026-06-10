@@ -26,7 +26,7 @@ def ler_bool(mensagem: str) -> bool:
 
 
 def mostrar_menu() -> None:
-    print("\nSistema de Atendimento")
+    print("\n=== Sistema de Atendimento ===")
     print("1 - Cadastrar cliente")
     print("2 - Cadastrar atendente")
     print("3 - Abrir atendimento")
