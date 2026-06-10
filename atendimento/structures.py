@@ -72,7 +72,7 @@ class Node(Generic[T]):
 
 
 class LinkedList(Generic[T]):
-    """Lista encadeada usada para manter clientes ativos."""
+    """Lista encadeada usada para manter os clientes ativos."""
 
     def __init__(self, itens: Iterable[T] | None = None) -> None:
         self.head: Node[T] | None = None
